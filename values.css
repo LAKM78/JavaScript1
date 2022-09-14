@@ -1,0 +1,65 @@
+.toptlt{
+    text-align: center;
+    font-family: sans-serif;
+  text-decoration: chocolate;
+  text-size-adjust: 70%;
+}
+  .box{
+  background-color: rgb(220, 231, 240); 
+  border-radius: 50%;
+}
+
+
+.bg1 {
+    text-align: center;
+    font-family: sans-serif;
+  text-decoration: chocolate;
+}
+
+.wholet{
+    background-image: url(forest.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: cadetblue;
+    text-align: center;
+}
+
+.fieldset{
+  border-color: bisque;
+  border-style: dashed;
+}
+
+.alert{
+  color: black;
+  background-color:teal;
+  margin-left: 6%;
+  width: 125px;
+  height: 50px;
+  }
+  
+  .prompt{
+      color: black;
+      background-color:teal;
+      margin-left: 6%;
+      width: 125px;
+      height: 50px;
+  }
+  
+  .confirm {
+      color: black;
+      background-color: teal;
+      margin-left: 6%;
+      width: 125px;
+      height: 50px;
+  }
+
+  .button {
+    font-size: 36px;
+    font-family: sans-serif;
+    margin: 1%;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/233/056/large_2x/ocean-and-sea-free-photo.jpg");
+    width: 225px;
+    height: 75px;
+    color: navy;
+    font-weight: bolder;
+}

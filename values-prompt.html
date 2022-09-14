@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <title>JavaScript Test</title>
+    <link rel="icon" type="image/x-icon" href="earth.png">
+    <link rel="stylesheet" href="values.css">
+    </head>
+
+    <body class="wholet">
+      
+<figure class="box">
+  <em><h1 class="toptlt">Step one of JavaScript</h1></em>
+
+  <audio autoplay>
+    <source src="https://sounds-mp3.com/mp3/0012793.mp3" type="audio/mp3">
+    Your browser does not support the audio element.
+  </audio>
+</figure>
+
+        <div class="bg1">
+          
+          <fieldset class="fieldset">
+            <input class="alert" type="button" onclick="alert('Testing')" value="Alert box">
+            <input class="prompt" type="button" onclick="prompt('Type something')" value="Prompt box">
+            <input class="confirm" type="button" onclick="confirm('Ok or Cancel')" value="Confirm box">
+           
+            <br>
+            <em><h4>"Here you are going to see what you have created, now what you have been inserting in the boxes that poped up will get shown inside the fieldset bellow the box choices. It will now show the output of a text you have inserted so let's see."</h4></em>
+          </br>
+
+   <script>
+       
+name = window.prompt("Enter a name.");
+start = window.prompt("Start an introduction about a country without telling us what it is!");
+country = window.prompt("Write a country.");
+city = window.prompt("And it's capital!");
+tellus = window.prompt("Why did you choose it.");
+population = window.prompt("Now insert the population in nr!");
+end = window.prompt("End your message.");
+
+
+
+let leon =  "<p style='color:black;'>" + "Hello" + " "  + name + " " + "we hope you have a wonderfull day!" + " " + start + " " + "My choice of country is" + " " + country + " " + "and the capital of it is called" + city + tellus + " that has around" + " " + population + " " + "people in it." + " " + end
+    document.write(leon);
+
+  // what is displayed in the onsole?
+
+  //console.log(leon);
+  // Sweden is the capital of Sweden. Population of Sweden is 10.78
+  function myFunction() {
+        let text;
+        let person = prompt("Enter name:", "Name...");
+        if (person == null || person == "") {
+          text = "How smart aren't you!";
+        } else {
+          text = "Hi " + person + "! Click Again";
+        }
+        document.getElementById("demo").innerHTML = text;
+      }
+
+   </script>
+          </fieldset>
+
+          <button onclick="myFunction('How smart arent you')" class="button">Click here</button>
+      
+      <p id="demo"></p>
+
+    </div>
+    <a class="box1" href="https://www.instagram.com/lellsson78/" target="_blank"> <img src="instagram.webp" alt="Instagram icon" style="width: 35px;height: 35px;"></a>
+
+    <footer class="footer">
+      <p>Copyright of Lellson enduro training page since 1/6 - &#169; 2022</p>
+    
+    </body>
+</html>
